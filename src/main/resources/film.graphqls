@@ -1,0 +1,26 @@
+schema {
+    query: GraphQL
+}
+
+scalar Date
+
+type GraphQL {
+    films : [Film]
+    film(id: Long) : Film
+}
+
+type Film {
+    id: String
+    title: String
+    publishAt: Date
+    sinopsis: String
+    director: Director
+}
+
+type Director {
+    id: String
+    name : String
+    surname: String
+    age: Int
+    phone: String
+}
