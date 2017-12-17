@@ -9,8 +9,8 @@
      
      
  #Endpoind
-    URL : http:localhost:8080/graphql
-    
+ 
+    URL : http:localhost:8080/graphql 
     httpMethod: POST    
        
  
